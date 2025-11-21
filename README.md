@@ -34,7 +34,7 @@ An interactive Streamlit dashboard for managing construction fleet parts with AI
 - Model replacement and downtime costs by part and machine type.
 
 - Visualize top cost-driving parts and risk cost breakdowns.
----
+
 ## Installation
 
 ```
@@ -49,7 +49,7 @@ Dependencies include:
 - numpy
 - scikit-learn
 - plotly
----
+
 ## Usage
 
 1. Launch the dashboard with: `streamlit run app.py`
@@ -63,19 +63,19 @@ Dependencies include:
 - Cost Simulation
 
 4. Input custom part data in the ML Predictions tab for on-demand predictions.
----
+
 ## Data
 
 - Currently uses a synthetic dataset: synthetic_construction_parts_dataset.csv.
 
 - Replace with real maintenance records for production use.
----
+
 ## Notes
 
-The ML model is trained on synthetic data.
+- The ML model is trained on synthetic data.
 
-All calculations are demo-oriented; parameters may require calibration for real-world operations.
----
+- All calculations are demo-oriented; parameters may require calibration for real-world operations.
+
 ## License
 
 MIT License
